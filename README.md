@@ -1,6 +1,6 @@
 # Weby - Web Development Learning Hub
 
-We are a group of 5-6 friends passionate about web development, and we've created this repository to streamline our learning process. By pooling our knowledge and resources, we aim to accelerate our growth as web developers.
+We are a group of 5-6 friends passionate about web development,New technologies and we've created this repository to streamline our learning process. By pooling our knowledge and resources, we aim to accelerate our growth as web developers and tech field.
 
 ## Getting Started
 
