@@ -14,8 +14,10 @@ export default {
 			},
 			colors: {
 				'regal-blue': '#243c5a',
-				'bg-primary': '#15171B',
-				'bg-secondary': '#1D1E26'
+				'clr-bg-primary': '#10151D',
+				'clr-bg-secondary': '#161E29',
+				'clr-border-primary': '#161e29',
+				'clr-border-secondary': '#2E3C51'
 			}
 		}
 	},
