@@ -1,0 +1,23 @@
+---
+import ProfileCard from './ProfileCard.astro'
+---
+
+<aside
+	class="z-50 flex h-screen w-80 flex-shrink-0 flex-col justify-between border-l border-blue-500/30 bg-bg-secondary px-8 py-4 pb-12 ring ring-bg-primary ring-offset-transparent"
+>
+	<div>
+		<h1 class="py-4 text-2xl tracking-tight text-blue-500/80">Meet the Team</h1>
+		<p class="font-mono text-sm leading-5 tracking-wider text-zinc-500">
+			We're six friends who love web development and new tech. We want to combine our skills and
+			resources to learn and grow faster in the web development and tech industry.
+		</p>
+	</div>
+	<div class="-ml-1 flex flex-col gap-2">
+		<ProfileCard name="Nazmus Sakib" jobTitle="Prompt Engineer" />
+		<ProfileCard name="Imran Nazir Udoy" jobTitle="Prompt Engineer" />
+		<ProfileCard name="Auritro" jobTitle="Prompt Engineer" />
+		<ProfileCard name="Muhammad Sazid" jobTitle="Prompt Engineer" />
+		<ProfileCard name="Jabir" jobTitle="Prompt Engineer" />
+		<ProfileCard name="EK Nayeem" jobTitle="Lead Developer" />
+	</div>
+</aside>

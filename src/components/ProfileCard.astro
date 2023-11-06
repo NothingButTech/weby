@@ -1,0 +1,17 @@
+---
+const { name, jobTitle } = Astro.props
+---
+
+<div
+	class="w-full rounded-lg border border-blue-500/30 bg-bg-primary py-2 pl-4 hover:ring-1 hover:ring-blue-500/80"
+>
+	<span class="mr-2 h-12 w-12 rounded-md bg-bg-secondary px-1 text-blue-500/80"
+		><i class="bi bi-person-fill h-full w-full"></i></span
+	>
+	<a
+		href="https://github.com/webydevgroup/"
+		target="_blank"
+		class="cursor-pointer text-lg text-blue-500/80">{name}</a
+	><br />
+	<span class="text-zinc-600">{jobTitle}</span>
+</div>
