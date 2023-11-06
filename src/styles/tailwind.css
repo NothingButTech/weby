@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.logo {
+		@apply font-logo bg-gradient-to-t from-red-500 bg-clip-text font-bold text-transparent;
+	}
+	.section {
+		@apply mx-auto min-w-[1024px] max-w-screen-lg px-32 py-10;
+	}
+	/* .border-ring {
+		@apply ring-bg-primary border-r border-dashed border-red-500/30 ring ring-offset-transparent;
+	} */
+}
