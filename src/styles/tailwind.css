@@ -4,7 +4,7 @@
 
 @layer base {
 	.logo {
-		@apply bg-gradient-to-t from-blue-500 bg-clip-text font-logo font-bold text-transparent;
+		@apply bg-gradient-to-t from-blue-500 to-blue-950 bg-clip-text font-logo font-bold text-transparent;
 	}
 	.section {
 		@apply w-[768px] max-w-screen-md flex-grow px-32 py-10;
