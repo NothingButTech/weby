@@ -3,15 +3,15 @@ const { name, jobTitle } = Astro.props
 ---
 
 <div
-	class="w-full rounded-lg border border-clr-border-secondary bg-clr-bg-primary py-2 pl-4 hover:ring-1 hover:ring-blue-500/80"
+	class="w-full rounded-lg border border-clr-border-secondary bg-clr-bg-primary py-2 px-5 hover:bg-clr-bg-secondary"
 >
-	<span class="mr-2 h-12 w-12 rounded-md bg-clr-bg-secondary px-1 text-blue-500/80"
+	<span class="h-12 w-12 rounded-full bg-clr-bg-secondary px-1 text-clr-text-primary"
 		><i class="bi bi-person-fill h-full w-full"></i></span
 	>
 	<a
 		href="https://github.com/orgs/WebyDevGroup/people"
 		target="_blank"
-		class="cursor-pointer text-lg text-blue-500/80">{name}</a
+		class="cursor-pointer text-lg pl-2 text-clr-text-primary">{name}</a
 	><br />
-	<span class="text-zinc-600">{jobTitle}</span>
+	<span class="text-clr-text-secondary">{jobTitle}</span>
 </div>

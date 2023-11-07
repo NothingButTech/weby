@@ -17,7 +17,9 @@ export default {
 				'clr-bg-primary': '#10151D',
 				'clr-bg-secondary': '#161E29',
 				'clr-border-primary': '#161e29',
-				'clr-border-secondary': '#2E3C51'
+				'clr-border-secondary': '#2E3C51',
+				'clr-text-primary': 'rgb(191 199 210)',
+				'clr-text-secondary': 'rgb(128 140 156)'
 			}
 		}
 	},
