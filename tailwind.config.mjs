@@ -18,8 +18,17 @@ export default {
 				'clr-bg-secondary': '#161E29',
 				'clr-border-primary': '#161e29',
 				'clr-border-secondary': '#2E3C51',
-				'clr-text-primary': 'rgb(191 199 210)',
+				'clr-text-primary': 'rgb(191 199 210)', // text-gray-500
 				'clr-text-secondary': 'rgb(128 140 156)'
+			},
+			animation: {
+				'running-text': 'running-text 700s linear infinite alternate'
+			},
+			keyframes: {
+				'running-text': {
+					from: {transform: 'translateX(-70%)'},
+					to: { transform: 'translateX(0%)' }
+				}
 			}
 		}
 	},
