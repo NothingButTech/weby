@@ -3,23 +3,23 @@ import ProfileCard from './ProfileCard.astro'
 ---
 
 <aside
-	class="z-50 flex h-screen  w-80 flex-shrink-0 flex-col justify-center border-l border-clr-border-secondary bg-clr-bg-primary px-2 rounded-lg ring ring-clr-bg-primary ring-offset-transparent"
+	class="fixed right-0 z-50 flex h-screen w-80 flex-col justify-center overflow-hidden border-l border-clr-border-secondary bg-clr-bg-primary px-2"
 >
-	<div class="border bg-clr-bg-secondary border-clr-border-secondary p-6 mb-2 rounded-lg w-full">
-		<h1 class="text-3xl text-clr-text-primary font-mono">
-			Meet the team
-		</h1>
-		<p class="my-2 font-mono text-sm leading-5 tracking-wider text-clr-text-secondary">
-			We're six friends who love web development and new tech. We want to combine our skills and
-			resources to learn and grow faster in the web development and tech industry.
-		</p>
-	</div>
-	<div class="flex flex-col gap-2">
-		<ProfileCard name="Nazmus Sakib" jobTitle="Prompt Engineer" />
-		<ProfileCard name="Imran Nazir Udoy" jobTitle="Lead Developer" />
-		<ProfileCard name="Auritro" jobTitle="Lead Developer" />
-		<ProfileCard name="Muhammad Sazid" jobTitle="Analyst" />
-		<ProfileCard name="Jabir" jobTitle="Quality Tester" />
-		<ProfileCard name="EK Nayeem" jobTitle="Project Manager & Lead Developer" />
+	<div class="flex flex-shrink-0 flex-col justify-center gap-3">
+		<div class="w-full rounded-md border border-clr-border-secondary bg-clr-bg-secondary p-6">
+			<h1 class="font-mono text-3xl text-clr-text-primary">Meet the team</h1>
+			<p class="my-2 font-mono text-sm leading-5 tracking-wider text-clr-text-secondary">
+				We're six friends who love web development and new tech. We want to combine our skills and
+				resources to learn and grow faster in the web development and tech industry.
+			</p>
+		</div>
+		<div class="flex flex-col gap-2">
+			<ProfileCard name="Nazmus Sakib" jobTitle="Prompt Engineer" />
+			<ProfileCard name="Imran Nazir Udoy" jobTitle="Lead Developer" />
+			<ProfileCard name="Auritro" jobTitle="Lead Developer" />
+			<ProfileCard name="Muhammad Sazid" jobTitle="Analyst" />
+			<ProfileCard name="Jabir" jobTitle="Quality Tester" />
+			<ProfileCard name="EK Nayeem" jobTitle="Project Manager" />
+		</div>
 	</div>
 </aside>
