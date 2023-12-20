@@ -1,0 +1,28 @@
+---
+import '@fontsource/major-mono-display'
+import '@fontsource/space-mono'
+import '../styles/tailwind.css'
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Nav from '../components/Nav.astro'
+import Footer from '../components/Footer.astro'
+import Sidebar from '../components/Sidebar.astro'
+
+const { title } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{title}</title>
+	</head>
+	<body class="flex bg-clr-bg-primary font-sans-serif">
+		<Nav />
+		<main class="mx-auto shrink-0">
+			<slot />
+			<Footer />
+		</main>
+		<Sidebar />
+	</body>
+</html>
