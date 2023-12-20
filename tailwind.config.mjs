@@ -26,8 +26,8 @@ export default {
 			},
 			keyframes: {
 				'running-text': {
-					from: {transform: 'translateX(-70%)'},
-					to: { transform: 'translateX(0%)' }
+					from: { transform: 'translateX(-90%)' },
+					to: { transform: 'translateX(-10%)' }
 				}
 			}
 		}
